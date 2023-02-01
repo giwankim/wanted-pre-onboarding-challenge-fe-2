@@ -1,22 +1,10 @@
 # wanted-pre-onboarding-challenge-fe-2
 
-## Usage
+## 소개
 
-### Install
+Todo 앱의 데이터 모델 및 간단한 기능들을 구현한 함수들을 JSDoc을 사용하여 자동으로 문서를 생성시키고 VS Code의 도움을 받아 [type checking 및 자동 완성](https://code.visualstudio.com/docs/nodejs/working-with-javascript) 기능을 제공 받는다.
 
-```bash
-npm install
-```
-
-### Build
-
-```bash
-npm run docs
-```
-
-#### Reference
-
-- [jsdoc.app](https://jsdoc.app)
+실제 todo 웹 앱의 백엔드 구현이라기 보다는 많이 간소화하여 JSDoc 어노테이션 사용에 중점을 두었다.
 
 ## 📝 Requirements
 
@@ -61,3 +49,21 @@ Todo {
 - [x] 모든 할 일을 제거할 수 있다.
 - [x] 특정 할 일의 특정 태그를 삭제할 수 있다.
 - [x] 특정 할 일의 모든 태그를 제거할 수 있다.
+
+## Usage
+
+### Install
+
+```bash
+npm install
+```
+
+### Build
+
+```bash
+npm run docs
+```
+
+#### Reference
+
+- [jsdoc.app](https://jsdoc.app)
